@@ -43,7 +43,6 @@ a.active,a:hover{
 }
 
 
-
 h1 {
   text-align: center;
 }
@@ -257,7 +256,7 @@ p{
 }
 /* Css para encabezado */
 .contenedor .header {
-  width: 96.5%;
+  width: 96%;
   height: 130px;
   background-image: linear-gradient(#43439d, #5e49da);
   color: #fff;
@@ -275,7 +274,7 @@ p{
   font-size: 23px;
   font-family: 'Times New Roman', Times, serif;
   display: block;
-  margin-top: -18px;
+  margin-top: -19px;
   padding-top: 30px;
   padding-block-end: 77px;
 }
@@ -285,7 +284,7 @@ p{
   grid-column: 3/4;
   display: block;
   grid-area: sidebar;
-  margin-top: -18px;
+  margin-top: -19px;
   margin-bottom: -20px;
   color: #000;
   font-size: 20px;
