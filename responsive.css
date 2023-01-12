@@ -23,14 +23,14 @@
         display: block;
         line-height: 50px;
         margin: 0 5px;
-        border-bottom: thin solid #12203e;
+        /* border-bottom: thin solid #12203e; */
   
       }
   
       .contenedor .header {
         width: 96.5%;
         height: 170px;
-        background: #12203e;
+        /* background: #12203e; */
         color: #fff;
         grid-area: header;
         background-repeat: no-repeat;

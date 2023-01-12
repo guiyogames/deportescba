@@ -12,23 +12,24 @@ body {
   font-family: "Roboto", "san-serif";
 }
 
-
 nav ul{
   float: right;
   margin-right: 20px;
+  text-decoration: none;
 }
 
 nav ul li{
   display: inline-block;
   /* line-height: 80px; */
   margin: 0 5px;
-  border-bottom: thin solid #12203e;
+  /* border-bottom: thin solid #546488; */
 
 }
 
 nav ul li a{
   color: white;
   font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
   text-transform: uppercase;
   text-decoration: none;
   padding: 7px 13px;
@@ -111,17 +112,15 @@ input:hover[type="submit"]{
 
 
 
-/* Titulo del head */
+/* Titulo del header */
 .full{
   text-align: left;
   font-size: 35px;
-  
+  font-family: Arial, Helvetica, sans-serif;
 }
 /* imagen del banner */
 .logo{
- width: 80px;
- height: 80px;
- padding-top: 20px;
+ margin-bottom: 10px;
 
 }
 /* clase del div */
@@ -260,7 +259,7 @@ p{
 .contenedor .header {
   width: 96.5%;
   height: 130px;
-  background: #12203e;
+  background-image: linear-gradient(#43439d, #5e49da);
   color: #fff;
   grid-area: header;
   background-repeat: no-repeat;
@@ -274,6 +273,7 @@ p{
   background-color: rgb(251, 246, 246);
   color: #000;
   font-size: 23px;
+  font-family: 'Times New Roman', Times, serif;
   display: block;
   margin-top: -18px;
   padding-top: 30px;
@@ -318,7 +318,7 @@ align-items: center; */
 }
 
 .contenedor .footer {
-  background: #12203e;
+  background-image: linear-gradient(#43439d, #5e49da);
   color: #fff;
   display: flex;
   text-align: center;
