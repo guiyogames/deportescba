@@ -1,4 +1,4 @@
-/* parte adaptable */
+/* parte adaptable notebook pequeñas y tablets */
 
 @media screen and (max-width: 768px) {
     .contenedor {
@@ -108,10 +108,30 @@
       min-height: 100px;
       max-height: 200px;
     }
-  
-  
-  
+
+}
+
+/* @media screen para celulares */
+@media screen and (max-width: 410px) {
+  .contenedor {
+    grid-template-areas:
+      "header     header     header"
+      "contenido  contenido  contenido"
+      "sidebar    sidebar    sidebar "
+      "widgets-1  widgets-1  widgets-1"
+      "widgets-2  widgets-2  widgets-2"
+      "footer      footer    footer";
   }
-  
-  
-  
+
+    .contenedor .header {
+      width: 105%;
+      height: 170px;
+      /* background: #12203e; */
+      color: #fff;
+      grid-area: header;
+      background-repeat: no-repeat;
+    
+    }
+
+}
+
