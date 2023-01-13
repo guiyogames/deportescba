@@ -12,6 +12,11 @@
     }
   
       /*banner header  */
+
+      h1 {
+        text-align: center;
+        padding-right: 197px;
+    }
   
       nav ul{
         float: left;
@@ -111,6 +116,118 @@
 
 }
 
+@media screen and (max-width: 768px) {
+  .contenedor .header {
+    width: 135%;
+  
+  }
+
+  .contenedor .contenido {
+    width: 135%;
+    
+  }
+
+
+  .contenedor .sidebar {
+    width: 135%;
+  
+  }
+
+  .contenedor .widgets-1,
+  .contenedor .widgets-2 {
+   width: 135%;
+
+}
+
+  .contenedor .footer {
+    width: 135%;
+
+  }
+
+  p {
+    width: 60%;
+    font-size: 22px;
+
+}
+
+}
+
+
+@media screen and (max-width: 600px) {
+  .contenedor .header {
+    width: 135%;
+  
+  }
+
+  .contenedor .contenido {
+    width: 135%;
+    
+  }
+
+
+  .contenedor .sidebar {
+    width: 135%;
+  
+  }
+
+  .contenedor .widgets-1,
+  .contenedor .widgets-2 {
+   width: 135%;
+
+}
+
+  .contenedor .footer {
+    width: 135%;
+
+  }
+
+  p {
+    width: 60%;
+    font-size: 22px;
+
+}
+
+  
+}
+
+@media screen and (max-width: 500px) {
+  
+  .contenedor .header {
+    width: 135%;
+  
+  }
+
+  .contenedor .contenido {
+    width: 135%;
+    
+  }
+
+
+  .contenedor .sidebar {
+    width: 135%;
+  
+  }
+
+  .contenedor .widgets-1,
+  .contenedor .widgets-2 {
+   width: 135%;
+
+}
+
+  .contenedor .footer {
+    width: 135%;
+
+  }
+
+  p {
+    width: 60%;
+    font-size: 22px;
+
+}
+
+
+}
+
 /* @media screen para celulares */
 @media screen and (max-width: 410px) {
   .contenedor {
@@ -124,33 +241,40 @@
   }
 
     .contenedor .header {
-      width: 125%;
+      width: 135%;
     
     }
 
     .contenedor .contenido {
-      width: 125%;
+      width: 135%;
       
     }
 
 
     .contenedor .sidebar {
-      width: 125%;
+      width: 135%;
     
     }
 
     .contenedor .widgets-1,
     .contenedor .widgets-2 {
-     width: 125%;
+     width: 135%;
 
 }
 
     .contenedor .footer {
-      width: 125%;
+      width: 135%;
 
     }
 
+    p {
+      width: 60%;
+      font-size: 22px;
+
 }
+
+}
+  
 
 @media screen and (max-width: 350px) {
   .contenedor {
@@ -163,30 +287,37 @@
       "footer      footer    footer";
   }
 
+
+  
+h1 {
+     text-align: center;
+     padding-right: 129px;
+}
+
     .contenedor .header {
-      width: 115%;
+      width: 145%;
     
     }
 
     .contenedor .contenido {
-      width: 115%;
+      width: 145%;
       
     }
 
 
     .contenedor .sidebar {
-      width: 115%;
+      width: 145%;
     
     }
 
     .contenedor .widgets-1,
     .contenedor .widgets-2 {
-     width: 115%;
+     width: 145%;
 
 }
 
     .contenedor .footer {
-      width: 115%;
+      width: 145%;
       margin-bottom: -60px;
 
     }

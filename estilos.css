@@ -45,6 +45,7 @@ a.active,a:hover{
 
 h1 {
   text-align: center;
+  padding-right: 10px;
 }
 /* css formulario */
 .form {
@@ -130,9 +131,10 @@ input:hover[type="submit"]{
 }
 /* foto deportistas */
 .sport_boys{
-  width: 494px;
-  height: 332px;
+  
+    padding-right: 207px;
 }
+
 /* tamaño zapatillas */
 .img {
   width: 250px;
