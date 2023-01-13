@@ -125,13 +125,29 @@
 
     .contenedor .header {
       width: 125%;
-      height: 170px;
-      /* background: #12203e; */
-      color: #fff;
-      grid-area: header;
-      background-repeat: no-repeat;
     
     }
 
+    .contenedor .contenido {
+      width: 125%;
+      
+    }
+
+
+    .contenedor .sidebar {
+      width: 125%;
+    
+    }
+
+    .contenedor .widgets-1,
+    .contenedor .widgets-2 {
+     width: 125%;
+
 }
 
+    .contenedor .footer {
+      width: 125%;
+
+    }
+
+}

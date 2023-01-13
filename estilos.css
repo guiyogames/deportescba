@@ -258,6 +258,7 @@ p{
 .contenedor .header {
   width: 96%;
   height: 130px;
+  margin-top: -20px;
   background-image: linear-gradient(#43439d, #5e49da);
   color: #fff;
   grid-area: header;
@@ -324,6 +325,7 @@ align-items: center; */
   justify-content: center;
   align-items: center;
   grid-area: footer;
+  margin-bottom: -58px;
 }
 
 
