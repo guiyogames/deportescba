@@ -151,3 +151,44 @@
     }
 
 }
+
+@media screen and (max-width: 350px) {
+  .contenedor {
+    grid-template-areas:
+      "header     header     header"
+      "contenido  contenido  contenido"
+      "sidebar    sidebar    sidebar "
+      "widgets-1  widgets-1  widgets-1"
+      "widgets-2  widgets-2  widgets-2"
+      "footer      footer    footer";
+  }
+
+    .contenedor .header {
+      width: 115%;
+    
+    }
+
+    .contenedor .contenido {
+      width: 115%;
+      
+    }
+
+
+    .contenedor .sidebar {
+      width: 115%;
+    
+    }
+
+    .contenedor .widgets-1,
+    .contenedor .widgets-2 {
+     width: 115%;
+
+}
+
+    .contenedor .footer {
+      width: 115%;
+      margin-bottom: -60px;
+
+    }
+
+  }

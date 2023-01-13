@@ -286,7 +286,7 @@ p{
   display: block;
   grid-area: sidebar;
   margin-top: -19px;
-  margin-bottom: -20px;
+  margin-bottom: -23px;
   color: #000;
   font-size: 20px;
 
@@ -301,8 +301,8 @@ p{
   display: block;
   margin-top: -26px;
   margin-left: 0px;
-  margin-right: -25px;
-  margin-bottom: -20px;
+  margin-right: -20px;
+  margin-bottom: -22px;
 
   /* text-align: center; */
   /* justify-content: center;
@@ -325,7 +325,7 @@ align-items: center; */
   justify-content: center;
   align-items: center;
   grid-area: footer;
-  margin-bottom: -40px;
+  margin-bottom: -41px;
 }
 
 
