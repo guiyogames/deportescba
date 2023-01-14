@@ -110,8 +110,6 @@ input:hover[type="submit"]{
     
 }
 
-
-
 /* Titulo del header */
 .full{
   text-align: left;
@@ -125,14 +123,15 @@ input:hover[type="submit"]{
 }
 /* clase del div */
 .img_1 {
-  text-align: center;
-  align-items: center;
+
+  margin-left:10px;
+  margin-right: 10px;
 
 }
 /* foto deportistas */
 .sport_boys{
   
-    padding-right: 207px;
+    margin-left: 67px;
 }
 
 /* tamaño zapatillas */
@@ -144,6 +143,7 @@ input:hover[type="submit"]{
 .img2 {
   width: 580px;
   height: 399px;
+  margin-left: 46px;
 }
 /* articulos de deporte */
 .img3{
@@ -171,6 +171,7 @@ h3 {
 .zapas {
   margin-top: -50px;
   font-size: 18px;
+  margin-left: 10px;
   text-align: center;
   border-bottom: thin solid #eee;
 
@@ -187,11 +188,13 @@ h3 {
 .futbol {
   width: 140px;
   height: 130px;
+  margin-left: 82px;
 }
 /* foto basket */
 .basket {
   width: 140px;
   height: 130px;
+  margin-left: 82px;
 }
 
 /* Ul página productos*/
@@ -218,7 +221,8 @@ p{
   width: 90%;
   font-size: 22px;
   font-family: 'Times New Roman', Times, serif;
-  margin: 20px 20px 20px 20px;
+  margin-left:  54px;
+  margin-top: 10px;
 }
 
 .p .img3 {
@@ -328,6 +332,10 @@ align-items: center; */
   align-items: center;
   grid-area: footer;
   margin-bottom: -41px;
+}
+
+.articulos{
+  text-align: center;
 }
 
 

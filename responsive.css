@@ -149,6 +149,27 @@
     font-size: 22px;
 
 }
+/* articulos de la página productos */
+.articulos {
+  margin-left: -367px;
+  margin-top: 10px;
+}
+/* imagenes de los deportistas y calzados de index */
+.img_1 {
+  margin-left: 359px;
+  margin-right: 10px;
+}
+
+
+.zapas {
+
+  margin-left: 177px
+}
+
+.zapas_2{
+  margin-left: 177px
+
+}
 
 }
 
@@ -187,35 +208,62 @@
 
 }
 
-  
+.articulos {
+  margin-left: -151px;
+  margin-top: 10px; 
+ 
+
+}
+  /* div que contiene las zapatillas */
+.img_1 {
+  margin-left:179px;
+  margin-right: 10px;
+
+}
+
+.zapas {
+  margin-left: 165px;
+ 
+}
+
+.zapas_2 {
+  margin-left: 165px;
+ 
+}
+
+.sport_boys {
+  margin-left: -118px;
+}
+
+
 }
 
 @media screen and (max-width: 500px) {
   
   .contenedor .header {
-    width: 135%;
+    width: 165%;
   
   }
 
   .contenedor .contenido {
-    width: 135%;
+    width: 165%;
     
   }
 
 
   .contenedor .sidebar {
-    width: 135%;
+    width: 165%;
   
   }
 
   .contenedor .widgets-1,
   .contenedor .widgets-2 {
-   width: 135%;
+   width: 165%;
 
 }
 
   .contenedor .footer {
-    width: 135%;
+    width: 165%;
 
   }
 
@@ -223,6 +271,11 @@
     width: 60%;
     font-size: 22px;
 
+}
+
+p {
+  margin-left: 55px;
+  margin-top: 10px;
 }
 
 
@@ -240,37 +293,16 @@
       "footer      footer    footer";
   }
 
-    .contenedor .header {
-      width: 135%;
-    
-    }
-
-    .contenedor .contenido {
-      width: 135%;
-      
-    }
-
-
-    .contenedor .sidebar {
-      width: 135%;
-    
-    }
-
-    .contenedor .widgets-1,
-    .contenedor .widgets-2 {
-     width: 135%;
-
-}
-
-    .contenedor .footer {
-      width: 135%;
-
-    }
 
     p {
       width: 60%;
       font-size: 22px;
 
+}
+
+.img_1 {
+  margin-left: 164px;
+  margin-right: 10px;
 }
 
 }
@@ -294,32 +326,27 @@ h1 {
      padding-right: 129px;
 }
 
-    .contenedor .header {
-      width: 145%;
-    
+
+
+    .img3{
+     margin-right: auto;
+     margin-left: auto;
+   
     }
 
-    .contenedor .contenido {
-      width: 145%;
-      
+    .img4{
+      margin-right: auto;
+     margin-left: auto;
     }
 
-
-    .contenedor .sidebar {
-      width: 145%;
-    
-    }
-
-    .contenedor .widgets-1,
-    .contenedor .widgets-2 {
-     width: 145%;
-
-}
-
-    .contenedor .footer {
-      width: 145%;
-      margin-bottom: -60px;
-
-    }
+    p {
+      width: 90%;
+      font-size: 22px;
+      font-family: 'Times New Roman', Times, serif;
+      margin-left: 55px;
+      margin-top: 10px;
+  }
+/* clase de la página productos */
+  
 
   }
