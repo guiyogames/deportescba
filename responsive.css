@@ -305,6 +305,18 @@ p {
   margin-right: 10px;
 }
 
+.sport_boys {
+  margin-left: -53px;
+}
+
+.zapas {
+  margin-left: 72px;
+}
+
+.zapas_2{
+  margin-left: 72px;
+}
+
 }
   
 
@@ -348,7 +360,7 @@ h1 {
   }
 /* clase de la página productos */
       .sport_boys {
-        margin-left: -55px;
+        margin-left: -53px;
       }
 
   }
