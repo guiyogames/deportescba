@@ -1,310 +1,6 @@
 /* parte adaptable notebook pequeñas y tablets */
 
 @media screen and (max-width: 768px) {
-    .contenedor {
-      grid-template-areas:
-        "header     header     header"
-        "contenido  contenido  contenido"
-        "sidebar    sidebar    sidebar "
-        "widgets-1  widgets-1  widgets-1"
-        "widgets-2  widgets-2  widgets-2"
-        "footer      footer    footer";
-    }
-  
-      /*banner header  */
-
-      h1 {
-        text-align: center;
-        padding-right: 197px;
-        font-size: 25px;
-    }
-  
-      nav ul{
-        float: left;
-        margin-right: 20px;
-      }
-  
-      nav ul li{
-        height: 30px;
-        display: block;
-        line-height: 50px;
-        margin: 0 5px;
-        /* border-bottom: thin solid #12203e; */
-  
-      }
-  
-      .contenedor .header {
-        width: 96.5%;
-        height: 170px;
-        /* background: #12203e; */
-        color: #fff;
-        grid-area: header;
-        background-repeat: no-repeat;
-      
-      }
-  
-  
-  /* foto deportistas */
-    .sport_boys{
-      width: 320px;
-      height: 220px;
-    }
-  /* nosotros */
-    .img2 {
-      width: 320px;
-      height: 220px;
-    }
-    /* zapatillas */
-    .img {
-      width: 200px;
-      height: 150px;
-    }
-  /* artículos deportivos */
-    .img3{
-      width: 150px;
-      height: 150px;
-    }
-  
-    /* foto fútbol */
-    .futbol {
-      width: 130px;
-      height: 120px;
-    }
-    /* foto basket */
-    .basket {
-      width: 120px;
-      height: 120px;
-    }
-  
-    .img4{
-      width: 110px;
-      height: 100px;
-    }
-  
-    /* adaptamos formulario */
-    .form {
-      background: rgb(231, 231, 231);
-      font-size: 15px;
-      width: 63%;
-      height: 75%;
-      margin: 20px 20px 20px 20px;
-      padding-top: 20px;
-      /* padding-block-end: 10px; */
-      padding-left: 40px;
-      padding-right: 40px;
-      border-radius: 5px;
-    }
-      /* botón */
-    input[type="submit"] {
-      width: 60%;
-      height: 22px;
-      border: 1px solid #12203e;
-      margin-block-end: 20px;
-      background: #ccc;
-      padding-left: 20px;
-  
-    }
-  
-  
-    textarea {
-      width: 60%;
-      height: 100px;
-      min-width: 220px;
-      max-width: 298px;
-      min-height: 100px;
-      max-height: 200px;
-    }
-
-}
-
-@media screen and (max-width: 768px) {
-  .contenedor .header {
-    width: 135%;
-  
-  }
-
-  .contenedor .contenido {
-    width: 135%;
-    
-  }
-
-
-  .contenedor .sidebar {
-    width: 135%;
-  
-  }
-
-  .contenedor .widgets-1,
-  .contenedor .widgets-2 {
-   width: 135%;
-
-}
-
-  .contenedor .footer {
-    width: 135%;
-
-  }
-
-  p {
-    width: 60%;
-    font-size: 20px;
-
-}
-/* articulos de la página productos */
-.articulos {
-  margin-left: -367px;
-  margin-top: 10px;
-}
-/* imagenes de los deportistas y calzados de index */
-.img_1 {
-  margin-left: 359px;
-  margin-right: 10px;
-}
-
-
-.zapas {
-
-  margin-left: 177px
-}
-
-.zapas_2{
-  margin-left: 177px
-
-}
-
-}
-
-
-@media screen and (max-width: 600px) {
-  .contenedor .header {
-    width: 135%;
-  
-  }
-
-  .contenedor .contenido {
-    width: 135%;
-    
-  }
-
-
-  .contenedor .sidebar {
-    width: 135%;
-  
-  }
-
-  .contenedor .widgets-1,
-  .contenedor .widgets-2 {
-   width: 135%;
-
-}
-
-  .contenedor .footer {
-    width: 135%;
-
-  }
-
-
-
-.articulos {
-  margin-left: -151px;
-  margin-top: 10px; 
- 
-
-}
-  /* div que contiene las zapatillas */
-.img_1 {
-  margin-left:179px;
-  margin-right: 10px;
-
-}
-
-.zapas {
-  margin-left: 165px;
- 
-}
-
-.zapas_2 {
-  margin-left: 165px;
- 
-}
-
-.sport_boys {
-  margin-left: -118px;
-}
-
-p {
-  width: 60%;
-  font-size: 18px;
-
-}
-
-}
-
-@media screen and (max-width: 500px) {
-  
-  .contenedor .header {
-    width: 165%;
-  
-  }
-
-  .contenedor .contenido {
-    width: 165%;
-    
-  }
-
-
-  .contenedor .sidebar {
-    width: 165%;
-  
-  }
-
-  .contenedor .widgets-1,
-  .contenedor .widgets-2 {
-   width: 165%;
-
-}
-
-  .contenedor .footer {
-    width: 165%;
-
-  }
-
-
-p {
-  margin-left: 55px;
-  margin-top: 10px;
-}
-
-.img2 {
-  margin-left: -109px;
-}
-
-}
-
-/* @media screen para celulares */
-@media screen and (max-width: 410px) {
- 
-.img_1 {
-  margin-left: 164px;
-  margin-right: 10px;
-}
-
-.sport_boys {
-  margin-left: -53px;
-}
-
-.zapas {
-  margin-left: 72px;
-}
-
-.zapas_2{
-  margin-left: 72px;
-}
-
-}
-  
-
-@media screen and (max-width: 350px) {
   .contenedor {
     grid-template-areas:
       "header     header     header"
@@ -315,29 +11,300 @@ p {
       "footer      footer    footer";
   }
 
+  /*banner header  */
 
-  
-h1 {
-     text-align: center;
-     padding-right: 129px;
+  h1 {
+    text-align: center;
+    padding-right: 197px;
+    font-size: 25px;
+  }
+
+  nav ul {
+    float: left;
+    margin-right: 20px;
+  }
+
+  nav ul li {
+    height: 30px;
+    display: block;
+    line-height: 50px;
+    margin: 0 5px;
+    /* border-bottom: thin solid #12203e; */
+  }
+
+  .contenedor .header {
+    width: 96.5%;
+    height: 170px;
+    /* background: #12203e; */
+    color: #fff;
+    grid-area: header;
+    background-repeat: no-repeat;
+  }
+
+  /* foto deportistas */
+  .sport_boys {
+    width: 320px;
+    height: 220px;
+  }
+  /* nosotros */
+  .img2 {
+    width: 320px;
+    height: 220px;
+  }
+  /* zapatillas */
+  .img {
+    width: 200px;
+    height: 150px;
+  }
+  /* artículos deportivos */
+  .img3 {
+    width: 150px;
+    height: 150px;
+  }
+
+  /* foto fútbol */
+  .futbol {
+    width: 130px;
+    height: 120px;
+  }
+  /* foto basket */
+  .basket {
+    width: 120px;
+    height: 120px;
+  }
+
+  .img4 {
+    width: 110px;
+    height: 100px;
+  }
+
+  /* adaptamos formulario */
+  .form {
+    background: rgb(231, 231, 231);
+    font-size: 15px;
+    width: 63%;
+    height: 75%;
+    margin: 20px 20px 20px 20px;
+    padding-top: 20px;
+    /* padding-block-end: 10px; */
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 5px;
+  }
+  /* botón */
+  input[type="submit"] {
+    width: 60%;
+    height: 22px;
+    border: 1px solid #12203e;
+    margin-block-end: 20px;
+    background: #ccc;
+    padding-left: 20px;
+  }
+
+  textarea {
+    width: 60%;
+    height: 100px;
+    min-width: 220px;
+    max-width: 298px;
+    min-height: 100px;
+    max-height: 200px;
+  }
 }
 
-
-
-    .img3{
-     margin-right: auto;
-     margin-left: auto;
-   
-    }
-
-    .img4{
-      margin-right: auto;
-     margin-left: auto;
-    }
-
-/* clase de la página productos */
-      .sport_boys {
-        margin-left: -53px;
-      }
-
+@media screen and (max-width: 768px) {
+  .contenedor .header {
+    width: 135%;
   }
+
+  .contenedor .contenido {
+    width: 135%;
+  }
+
+  .contenedor .sidebar {
+    width: 135%;
+  }
+
+  .contenedor .widgets-1,
+  .contenedor .widgets-2 {
+    width: 135%;
+  }
+
+  .contenedor .footer {
+    width: 135%;
+  }
+
+  p {
+    width: 60%;
+    font-size: 20px;
+  }
+  /* articulos de la página productos */
+  .articulos {
+    margin-left: -367px;
+    margin-top: 10px;
+  }
+  /* imagenes de los deportistas y calzados de index */
+  .img_1 {
+    margin-left: 359px;
+    margin-right: 10px;
+  }
+
+  .zapas {
+    margin-left: 177px;
+  }
+
+  .zapas_2 {
+    margin-left: 177px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .contenedor .header {
+    width: 135%;
+  }
+
+  .contenedor .contenido {
+    width: 135%;
+  }
+
+  .contenedor .sidebar {
+    width: 135%;
+  }
+
+  .contenedor .widgets-1,
+  .contenedor .widgets-2 {
+    width: 135%;
+  }
+
+  .contenedor .footer {
+    width: 135%;
+  }
+
+  .articulos {
+    margin-left: -151px;
+    margin-top: 10px;
+  }
+  /* div que contiene las zapatillas */
+  .img_1 {
+    margin-left: 179px;
+    margin-right: 10px;
+  }
+
+  .zapas {
+    margin-left: 165px;
+  }
+
+  .zapas_2 {
+    margin-left: 165px;
+  }
+
+  .sport_boys {
+    margin-left: -118px;
+  }
+
+  p {
+    width: 60%;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .contenedor .header {
+    width: 165%;
+  }
+
+  .contenedor .contenido {
+    width: 165%;
+  }
+
+  .contenedor .sidebar {
+    width: 165%;
+  }
+
+  .contenedor .widgets-1,
+  .contenedor .widgets-2 {
+    width: 165%;
+    margin-top: 2px;
+  }
+
+  .contenedor .footer {
+    width: 165%;
+  }
+
+  p {
+    margin-left: 55px;
+    margin-top: 10px;
+  }
+
+  .img2 {
+    margin-left: -109px;
+  }
+}
+
+/* @media screen para celulares */
+@media screen and (max-width: 410px) {
+  .img_1 {
+    margin-left: 65px;
+    margin-right: 10px;
+  }
+
+  .img2 {
+    margin-left: -39px;
+  }
+
+  .sport_boys {
+    margin-left: -53px;
+  }
+
+  .zapas {
+    margin-left: 72px;
+    font-size: 12px;
+  }
+
+  .zapas_2 {
+    margin-left: 72px;
+    font-size: 12px;
+  }
+
+  h1 {
+    text-align: center;
+    padding-right: 306px;
+    font-size: 25px;
+  }
+
+  p {
+    width: 41%;
+    font-size: 19px;
+  }
+
+  .contenedor .sidebar {
+    width: 93%;
+  }
+
+  .contenedor .widgets-1,
+  .contenedor .widgets-2 {
+    margin-left: -28px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+
+  h1 {
+    text-align: center;
+    padding-right: 129px;
+  }
+
+  .img3 {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .img4 {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  /* clase de la página productos */
+  .sport_boys {
+    margin-left: -53px;
+  }
+}
