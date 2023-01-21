@@ -16,6 +16,7 @@
       h1 {
         text-align: center;
         padding-right: 197px;
+        font-size: 25px;
     }
   
       nav ul{
@@ -146,7 +147,7 @@
 
   p {
     width: 60%;
-    font-size: 22px;
+    font-size: 20px;
 
 }
 /* articulos de la página productos */
@@ -202,11 +203,7 @@
 
   }
 
-  p {
-    width: 60%;
-    font-size: 22px;
 
-}
 
 .articulos {
   margin-left: -151px;
@@ -235,6 +232,11 @@
   margin-left: -118px;
 }
 
+p {
+  width: 60%;
+  font-size: 18px;
+
+}
 
 }
 
@@ -267,11 +269,6 @@
 
   }
 
-  p {
-    width: 60%;
-    font-size: 22px;
-
-}
 
 p {
   margin-left: 55px;
@@ -283,23 +280,7 @@ p {
 
 /* @media screen para celulares */
 @media screen and (max-width: 410px) {
-  .contenedor {
-    grid-template-areas:
-      "header     header     header"
-      "contenido  contenido  contenido"
-      "sidebar    sidebar    sidebar "
-      "widgets-1  widgets-1  widgets-1"
-      "widgets-2  widgets-2  widgets-2"
-      "footer      footer    footer";
-  }
-
-
-    p {
-      width: 60%;
-      font-size: 22px;
-
-}
-
+ 
 .img_1 {
   margin-left: 164px;
   margin-right: 10px;
@@ -351,13 +332,6 @@ h1 {
      margin-left: auto;
     }
 
-    p {
-      width: 90%;
-      font-size: 22px;
-      font-family: 'Times New Roman', Times, serif;
-      margin-left: 55px;
-      margin-top: 10px;
-  }
 /* clase de la página productos */
       .sport_boys {
         margin-left: -53px;
