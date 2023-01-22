@@ -15,7 +15,7 @@
 
   h1 {
     text-align: center;
-    padding-right: 197px;
+    margin-right: 197px;
     font-size: 25px;
   }
 
@@ -190,21 +190,61 @@
   }
 
   .zapas {
-    margin-left: 165px;
+    margin-left: 37px;
   }
 
   .zapas_2 {
-    margin-left: 165px;
+    margin-left: 60px;
   }
 
   .sport_boys {
-    margin-left: -118px;
+    margin-left: -47px;
   }
 
   p {
     width: 60%;
     font-size: 18px;
   }
+
+  .precio {
+
+    margin-top: 13px;
+    margin-right: 244px;
+
+  }
+
+  h3 {
+
+    margin-top: 13px;
+    margin-right: 244px;
+
+  }
+
+  .precio_zapas {
+
+    margin-top: 13px;
+    margin-right:238px;
+    margin-left: 10px;
+    
+  }
+
+  .h3_zapa {
+    margin-right: 235px;
+  }
+  
+  .futbol {
+    width: 129px;
+    height: 120px;
+    margin-left: 43px;
+    margin-right: 10px;
+  }
+  .basket {
+    width: 120px;
+    height: 120px;
+    margin-left: 43px;
+    margin-right: 10px;
+  }
+
 }
 
 @media screen and (max-width: 500px) {
@@ -267,13 +307,17 @@
 
   h1 {
     text-align: center;
-    padding-right: 306px;
+    margin-right: 306px;
     font-size: 25px;
   }
-
+/* global ocupa las pelotas de basket y fútbol */
   h3 {
     margin-left: 71px;
     margin-right: 10px;
+}
+
+.h3_zapa {
+  margin-right: -210px;
 }
   p {
     width: 41%;
@@ -288,13 +332,34 @@
   .contenedor .widgets-2 {
     margin-left: -28px;
   }
+
+  h3 {
+    margin-left: -222px;
+    margin-right: 10px;
+  }
+/* precio  */
+  .precio {
+
+    margin-top: 13px;
+    margin-right: 244px;
+
+  }
+
+  .precio_zapas {
+
+    margin-top: 13px;
+    margin-right:10px;
+    margin-left: 10px;
+
+  }
+
 }
 
 @media screen and (max-width: 350px) {
 
   h1 {
     text-align: center;
-    padding-right: 129px;
+    margin-right: 129px;
   }
 
   .img3 {

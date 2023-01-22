@@ -162,13 +162,25 @@ input:hover[type="submit"]{
 h3 {
   text-align: center;
 
-
+  
 }
-
+/* texto de las zapatillas */
+.h3_zapa{
+  margin-right: 10px;
+}
+/* precio de las pelotas */
 .precio {
   text-align: center;
   font-weight: bold;
   margin-top: 10px;
+}
+/* precio de las zapatillas */
+.precio_zapas{
+  text-align: center;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 /* parrafo de imagen */
 .zapas {
