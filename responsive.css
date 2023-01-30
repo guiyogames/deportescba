@@ -302,6 +302,7 @@
     margin-left: -53px;
   }
 /* descripción zapatillas */
+
   .zapas {
     margin-left: 90px;
     font-size: 12px;
@@ -310,6 +311,21 @@
   .zapas_2 {
     margin-left: 90px;
     font-size: 12px;
+  }
+ /* parrafo de imagen zapatillas*/
+  .p_zapas {
+    margin-top: -27px;
+    font-size: 14px;
+    margin-left: 91px;
+    
+  
+  }
+
+  .p_zapas_2 {
+    margin-top: -27px;
+    font-size: 14px;
+    margin-left: 91px;
+    
   }
 
   h1 {
@@ -378,6 +394,7 @@
     margin-right: auto;
     margin-left: auto;
   }
+
 
   /* clase de la página productos */
   .sport_boys {
